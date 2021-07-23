@@ -1,11 +1,14 @@
-﻿public struct Vector2
+﻿namespace FGUIAtlasSpliter
 {
-    public float x;
-    public float y;
-
-    public Vector2(float x, float y)
+    public struct Vector2
     {
-        this.x = x;
-        this.y = y;
+        public float x;
+        public float y;
+
+        public Vector2(float x, float y)
+        {
+            this.x = x;
+            this.y = y;
+        }
     }
 }

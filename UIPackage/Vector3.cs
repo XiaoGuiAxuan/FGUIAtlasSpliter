@@ -1,13 +1,17 @@
-﻿public struct Vector3
+﻿namespace FGUIAtlasSpliter
 {
-    public float x;
-    public float y;
-    public float z;
-
-    public Vector3(float x, float y, float z)
+    public struct Vector3
     {
-        this.x = x;
-        this.y = y;
-        this.z = z;
+        public float x;
+        public float y;
+        public float z;
+
+        public Vector3(float x, float y, float z)
+        {
+            this.x = x;
+            this.y = y;
+            this.z = z;
+        }
     }
 }
+
