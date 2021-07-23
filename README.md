@@ -11,12 +11,10 @@
 ~~~c#
 using FGUIAtlasSpliter;
 class Program{
-    
-	static void Main(string[] args)
-    {
+    static void Main(string[] args) {
         var bytePath = @"D:\Atlas\bag_fui.bytes";
         var exportDir = @"D:\UISources";
-		UIPackageTool.SplitAtlas(bytePath, exportDir);
+        UIPackageTool.SplitAtlas(bytePath, exportDir);
     }
 }
 ~~~
