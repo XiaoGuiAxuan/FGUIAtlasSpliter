@@ -17,6 +17,7 @@ class Program{
         UIPackageTool.SplitAtlas(bytePath, exportDir);
     }
 }
+
 ~~~
 
 4、如果没有报错，一般会在指定的导出目录下生成散图
